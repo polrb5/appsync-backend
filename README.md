@@ -1,2 +1,2 @@
 # appsync-backend
-Backend for the AppSync Twitter clone demo app
+Backend for the AppSync Twitter clone app
