@@ -7,7 +7,8 @@
   "scripts": {
     "sls": "sls",
     "exportEnv": "sls export-env",
-    "integration-test": "jest --verbose ./__tests__/test_cases/integration"
+    "integration-test": "jest --verbose ./__tests__/test_cases/integration",
+    "e2e-test": "jest --verbose ./__tests__/test_cases/e2e"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
     "jest": "^27.5.1",
     "serverless": "^3.4.0",
     "serverless-appsync-plugin": "^1.12.1",
-    "serverless-export-env": "github:arabold/serverless-export-env",
+    "serverless-export-env": "^1.4.1",
     "serverless-iam-roles-per-function": "^3.2.0"
   },
   "dependencies": {
